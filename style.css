@@ -1,0 +1,39 @@
+body {
+  background-color: #78a4b3;
+}
+
+h1 {
+  color: #8d3ca6;
+  text-align: center;
+  margin: 1.3rem;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+    margin: 0.2rem;
+}
+
+li:nth-child(2n) {
+  background-color: #ff0000;
+}
+
+li:nth-last-child(1) {
+  font-family: impulse, cursive;
+  font-size: 2rem;
+}
+
+li:nth-child(1) {
+  font-family: impulse, cursive;
+  font-size: 2rem;
+}
+
+li:empty {
+  visibility: hidden;
+}
+
+li:hover {
+  background-color: yellow;
+}
